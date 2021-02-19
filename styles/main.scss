@@ -4,9 +4,6 @@
 @import "globals";
 
 .testimonials {
-  margin: 0 auto;
-  // margin-bottom: calcPxToRem(15);
-
   @include breakpoint-up {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
