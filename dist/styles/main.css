@@ -29,6 +29,9 @@ body {
         grid-template-rows: repeat(2, 1fr);
     gap: 1.875rem;
   }
+  .testimonials .testimonial {
+    margin-bottom: 0;
+  }
   .testimonials #daniel {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
@@ -121,12 +124,6 @@ body {
   opacity: 0.7;
   font-size: 0.9375rem;
   line-height: 1.4;
-}
-
-@media only screen and (min-width: 81.25rem) {
-  .testimonial {
-    margin-bottom: 0;
-  }
 }
 
 .bg__voilet {
